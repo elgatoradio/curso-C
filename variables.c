@@ -1,9 +1,17 @@
 #include <stdio.h>
 
+/*Variables Declarations*/
+
+int a, b, c;
+float f, g, h;
+
 int main()
 {
-    /* my first hello world in C language*/
-    printf("Hello World!!");
-    printf(" ¿¿y ese pinche signo que??");
+//Variables Initialization
+    a = 1;
+    b = 34;
+
+    c = a + b;
+    printf("Value of sum is: %d", c);
     return 0;
 }
