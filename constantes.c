@@ -1,7 +1,15 @@
 #include <stdio.h>
 
+#define PIZZACOST 1.5
+
+const char NEWLINE = '\n';
+
 int main()
 {
-    printf("Hello World!!");
-    return 0;
+    float costoPizzas;
+    float numberOfSlices = 3;
+
+    costoPizzas =  PIZZACOST * numberOfSlices;
+
+    printf("Total bill = %c %f", NEWLINE, costoPizzas);
 }
